@@ -20,7 +20,7 @@ public class Book {
     private String author;
 
     @Builder
-    private Book(String title, String content, String author){
+    public Book(String title, String content, String author){
         this.title = title;
         this.content = content;
         this.author = author;
